@@ -1,0 +1,18 @@
+
+body {
+  background-color: blanchedalmond;
+}
+h1 {
+  color: black;
+}
+p {
+  background-color: azure;
+  color: black;
+}
+.odd{
+    color: crimson;
+}
+
+.even{
+    color:blue
+}
