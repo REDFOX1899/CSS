@@ -1,18 +1,18 @@
 
 body {
-  background-color: blanchedalmond;
+  background-color: black;
 }
 h1 {
-  color: black;
+  color: white;
+  font-family: "Press Start 2P", "consolas"
+  
 }
 p {
-  background-color: azure;
-  color: black;
-}
-.odd{
-    color: crimson;
-}
+  color: greenyellow;
+  font-family: "consolas", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration:cyan underline;
+  font-size: 18px;
 
-.even{
-    color:blue
 }
