@@ -1,0 +1,40 @@
+body
+{
+	/*	This changes the default bit of padding on our website
+		to 0 
+	*/
+	margin: 0px;
+}
+
+#box1 
+{
+	border: 5px solid;
+	width: 250px;
+	height: 250px;
+	font-size: 16px;
+	background-color: aqua;
+
+	/*
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+
+	margin: 50px;
+	*/
+
+	/* Auto sets it to one side of the page */
+	/* The two elements together position the content in the middle horizontally */
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#box2
+{
+	border: 5px solid;
+	width: 250px;
+	height: 250px;
+	font-size: 16px;
+	background-color: lightcoral;
+}

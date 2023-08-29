@@ -1,0 +1,85 @@
+#box1
+{
+	width: 250px;
+	height: 250px;
+	background: red;
+	font-size: 225px;
+	text-align: center;
+
+	/*
+	Referencing the animation
+	animation: mySlide;
+
+	animation-play-state: running;
+
+	Number of times the animation runs
+	animation-iteration-count: infinite;
+
+	animation-delay: 0s;
+
+	How the animation runs e.g. linear, ease, ease in,
+	ease out
+	animation-timing-function: linear;
+
+	animation-duration: 5s;
+
+	Short cut to create all 6 properties in one line
+	animation-duration then function then delay then iteration
+	then running or stopped then the animation 
+	*/
+
+	animation: 3s linear 0s infinite running myColorChange;
+}
+
+/* Can place animation in a pseudo class */
+
+#box1:hover 
+{
+
+}
+
+#box1:active
+{
+	
+}
+
+/* Creating an animtion using the @keyframes then the name
+   of your animation */
+
+@keyframes mySlide
+{
+	from {margin-right: auto;}
+	to {margin-left: 100%;}
+}
+
+/* We don't have to use from and to tags we can use
+   percentages */
+
+@keyframes myRotate
+{
+/*	100% {transform: rotateX(360deg);}*/
+/*	100% {transform: rotateY(360deg);}*/
+	100% {transform: rotateZ(360deg);}
+}
+
+@keyframes myOpacity
+{
+	50% {opacity: 0;}
+}
+
+@keyframes myScale
+{
+	50% {transform: scale(0.5, 0.5);}
+}
+
+@keyframes myColorChange
+{
+	20% {background-color: orange;}
+	40% {background-color: yellow;}
+	60% {background-color: green;}
+	80% {background-color: blue;}
+/*	100% {background-color: purple;}*/
+}
+
+
+

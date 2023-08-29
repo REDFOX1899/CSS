@@ -1,0 +1,48 @@
+/*
+EXTERNAL CSS
+Great cause can reference this document with any number of html documents
+*/
+
+/* For all in built tags we just write their name
+   to reference them */
+
+body 
+{
+	/* Here we write the CSS attributes */
+
+	background-color: black;
+	padding: .5%;
+}
+
+h1 
+{
+	color: white;
+	text-align: center;
+}
+
+p
+{
+	background-color: grey;
+	color: white;
+	padding: 6px;
+}
+
+/* For id tags we use a # */
+
+#p1
+{
+	/*color: tomato;*/
+}
+
+/* For class tags we use a . */
+
+.odd 
+{
+	color: red;
+}
+
+.even 
+{
+	color: blue;
+}
+

@@ -1,0 +1,70 @@
+/*
+	A pseudo class can be referenced to with the : 
+	then the action 
+*/
+
+a:link
+{ 
+	color: lawngreen;
+}
+
+a:visited 
+{
+	color: grey;
+}
+
+a:hover
+{
+	color: tomato;
+}
+
+a:active 
+{
+	color: yellow;
+}
+
+button:hover
+{
+	background-color: red;
+}
+
+button:visited
+{
+	background-color: white;
+}
+
+/* nth-child is a selector pseudo class, so here im selecting element 5 in the ul */
+
+/*li:nth-child(5)
+{
+	background-color: yellow;
+}*/
+
+/*li:nth-child(even)
+{
+	background-color: skyblue;
+}
+
+li:nth-child(odd)
+{
+	background-color: powderblue;
+}*/
+
+
+/* Every 5 in the list and the offset is where it starts */
+li:nth-child(5n+1)
+{
+	background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+

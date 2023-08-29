@@ -1,0 +1,23 @@
+body {
+	background-color: black;
+	padding: .5%;
+
+	/* Here we write a list of fonts this is just in case
+	   the browser doesn't support the one we want. */
+
+	font-family: "Abril Fatface", "consolas", "sans-serif;";
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: lightgreen;
+	font-family: "Barlow", sans-serif;
+	/* Font and text properties */
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: cyan wavy underline;
+	font-size: 20px;
+}
